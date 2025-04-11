@@ -41,5 +41,22 @@ int main() {
     scanf("%d", &pontosTuristicos1);
     getchar(); // limpar buffer
 
+    // Entrada dos dados da segunda carta
+    printf("\nDigite o estado da segunda carta (A-H): ");
+    scanf(" %c", &estado2);
+    printf("Digite o código da carta (ex: B02): ");
+    scanf(" %s", codigo2);
+    printf("Digite o nome da cidade: ");
+    scanf(" %[^\n]", nomeCidade2); 
+    getchar(); // limpar buffer
+    printf("Digite a população da cidade: ");
+    scanf("%d", &populacao2);
+    printf("Digite a área da cidade (km²): ");
+    scanf("%f", &area2);
+    printf("Digite o PIB da cidade (em bilhões de reais): ");
+    scanf("%f", &pib2);
+    printf("Digite o número de pontos turísticos: ");
+    scanf("%d", &pontosTuristicos2);
+
     return 0;
 }
