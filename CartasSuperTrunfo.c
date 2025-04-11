@@ -13,14 +13,14 @@ int main() {
     float pib1;
     int pontosTuristicos1;
 
-     // Declaração das variáveis para a segunda carta
-     char estado2;
-     char codigo2[4];
-     char nomeCidade2[50];
-     int populacao2;
-     float area2;
-     float pib2;
-     int pontosTuristicos2;
+    // Declaração das variáveis para a segunda carta
+    char estado2;
+    char codigo2[4];
+    char nomeCidade2[50];
+    int populacao2;
+    float area2;
+    float pib2;
+    int pontosTuristicos2;
      
      
     // Entrada dos dados da primeira carta
@@ -57,6 +57,8 @@ int main() {
     scanf("%f", &pib2);
     printf("Digite o número de pontos turísticos: ");
     scanf("%d", &pontosTuristicos2);
+
+
 
     return 0;
 }
